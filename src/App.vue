@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <navbar></navbar>
     <b-container class="p-4">
       <loader v-if="isLoading"></loader>
       <router-view/>
