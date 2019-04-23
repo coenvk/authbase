@@ -2,16 +2,17 @@
   <div id="app">
     <navbar></navbar>
     <b-container class="p-4">
-      <ribbon
-        text="Fork me on GitHub"
-        url="https://github.com/campoe/authbase"
-        color="#121621"
-        fixed
-      />
       <loader v-if="isLoading"></loader>
       <router-view/>
     </b-container>
     <scroll-to-top :threshold="100"/>
+    <ribbon
+        text="Fork me on GitHub"
+        url="https://github.com/campoe/authbase"
+        color="#121621"
+        position="right-bottom"
+        fixed
+     />
   </div>
 </template>
 
