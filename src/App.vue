@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <ribbon
-      text="Fork me on GitHub"
-      url="https://github.com/campoe/authbase"
-      color="#121621"
-      fixed
-    />
     <navbar></navbar>
     <b-container class="p-4">
+      <ribbon
+        text="Fork me on GitHub"
+        url="https://github.com/campoe/authbase"
+        color="#121621"
+        fixed
+      />
       <loader v-if="isLoading"></loader>
       <router-view/>
     </b-container>
