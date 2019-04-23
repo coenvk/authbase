@@ -1,5 +1,11 @@
 <template>
   <div id="app">
+    <ribbon
+      text="Fork me on GitHub"
+      url="https://github.com/campoe/authbase"
+      color="#121621"
+      fixed
+    />
     <navbar></navbar>
     <b-container class="p-4">
       <loader v-if="isLoading"></loader>
@@ -14,10 +20,12 @@ import { mapState } from 'vuex'
 import Navbar from './components/Navbar'
 import ScrollToTop from './components/ScrollToTop'
 import Loader from './components/Loader'
+import Ribbon from 'vue-ribbon'
 
 export default {
   components: {
     Navbar,
+    Ribbon,
     ScrollToTop,
     Loader
   },
