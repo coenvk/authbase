@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "bcrypt": "^3.0.3",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.3",
     "bootstrap-vue": "^2.0.0-rc.19",
     "date-fns": "^1.30.1",
